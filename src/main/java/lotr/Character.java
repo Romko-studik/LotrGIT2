@@ -19,7 +19,7 @@ public abstract class Character {
     }
     @Override
     public String toString(){
-        return this.getClass().getSimpleName() + "{hp="+hp + ", power ="+power+"}";
+        return this.getClass().getSimpleName() + "{hp="+hp + ", power="+power+"}";
     }
     public void setHp(int hp){
         if(hp>0)this.hp = hp;
